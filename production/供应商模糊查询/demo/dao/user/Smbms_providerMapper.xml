@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.example.mapper.Smbms_providerMapper" >
+  <resultMap id="BaseResultMap" type="demo.entity.Smbms_provider" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="proCode" property="procode"  />
+    <result column="proName" property="proname"  />
+    <result column="proDesc" property="prodesc"  />
+    <result column="proContact" property="procontact"  />
+    <result column="proPhone" property="prophone"  />
+    <result column="proAddress" property="proaddress"  />
+    <result column="proFax" property="profax"  />
+    <result column="createBy" property="createby"  />
+    <result column="creationDate" property="creationdate"  />
+    <result column="modifyDate" property="modifydate"  />
+    <result column="modifyBy" property="modifyby"  />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from smbms_provider
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="demo.entity.Smbms_provider" >
+    insert into smbms_provider (id, proCode, proName, 
+      proDesc, proContact, proPhone, 
+      proAddress, proFax, createBy, 
+      creationDate, modifyDate, modifyBy
+      )
+    values (#{id,jdbcType=BIGINT}, #{procode,jdbcType=VARCHAR}, #{proname,jdbcType=VARCHAR}, 
+      #{prodesc,jdbcType=VARCHAR}, #{procontact,jdbcType=VARCHAR}, #{prophone,jdbcType=VARCHAR}, 
+      #{proaddress,jdbcType=VARCHAR}, #{profax,jdbcType=VARCHAR}, #{createby,jdbcType=BIGINT}, 
+      #{creationdate,jdbcType=TIMESTAMP}, #{modifydate,jdbcType=TIMESTAMP}, #{modifyby,jdbcType=BIGINT}
+      )
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="demo.entity.Smbms_provider" >
+    update smbms_provider
+    set proCode = #{procode,jdbcType=VARCHAR},
+      proName = #{proname,jdbcType=VARCHAR},
+      proDesc = #{prodesc,jdbcType=VARCHAR},
+      proContact = #{procontact,jdbcType=VARCHAR},
+      proPhone = #{prophone,jdbcType=VARCHAR},
+      proAddress = #{proaddress,jdbcType=VARCHAR},
+      proFax = #{profax,jdbcType=VARCHAR},
+      createBy = #{createby,jdbcType=BIGINT},
+      creationDate = #{creationdate,jdbcType=TIMESTAMP},
+      modifyDate = #{modifydate,jdbcType=TIMESTAMP},
+      modifyBy = #{modifyby,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select id, proCode, proName, proDesc, proContact, proPhone, proAddress, proFax, createBy, 
+    creationDate, modifyDate, modifyBy
+    from smbms_provider
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap" >
+    select id, proCode, proName, proDesc, proContact, proPhone, proAddress, proFax, createBy, 
+    creationDate, modifyDate, modifyBy
+    from smbms_provider
+  </select>
+
+  <select id="getUserListByUserName" resultType="Smbms_provider" parameterType="String">
+           select id, proCode, proName, proDesc, proContact, proPhone, proAddress, proFax, createBy,
+    creationDate, modifyDate, modifyBy
+    from smbms_provider WHERE 1=1 AND userName LIKE CONCAT('%','张','%')
+    </select>
+</mapper>

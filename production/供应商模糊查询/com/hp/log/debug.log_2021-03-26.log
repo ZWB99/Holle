@@ -1,0 +1,272 @@
+2021-03-26 10:10:12 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-03-26 10:10:12 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-03-26 10:10:12 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 10:10:12 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 10:10:12 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 10:10:12 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 10:10:12 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2021-03-26 10:10:12 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 626742236.
+2021-03-26 10:10:12 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@255b53dc]
+2021-03-26 10:10:12 上午 [Thread: main][ Class:abc.getUserList >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: SELECT `id`, `loginName`, `userName`, `password`, `sex`, `identityCode`, `email`, `mobile`, `type` FROM skeyedu_user 
+2021-03-26 10:10:12 上午 [Thread: main][ Class:abc.getUserList >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 
+2021-03-26 10:10:12 上午 [Thread: main][ Class:abc.getUserList >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==      Total: 11
+2021-03-26 10:10:12 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@255b53dc]
+2021-03-26 10:10:12 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@255b53dc]
+2021-03-26 10:10:12 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 626742236 to pool.
+2021-03-26 10:10:12 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:32) ]
+INFO:每行的内容：SkeyeduUser{id=2, userCode='null', loginName='admin', userName='系统管理员', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='130406198302141869', email='hello11@bdqn.com', mobile='1583233515', type=1}
+2021-03-26 10:10:12 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:32) ]
+INFO:每行的内容：SkeyeduUser{id=10, userCode='null', loginName='cgn', userName='程广宁', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='1044732267@qq.com', mobile='13366055011', type=0}
+2021-03-26 10:10:12 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:32) ]
+INFO:每行的内容：SkeyeduUser{id=11, userCode='null', loginName='hyl', userName='韩语良', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225198874584539', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 10:10:12 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:32) ]
+INFO:每行的内容：SkeyeduUser{id=12, userCode='null', loginName='ck', userName='陈康', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 10:10:12 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:32) ]
+INFO:每行的内容：SkeyeduUser{id=13, userCode='null', loginName='kys', userName='康有沈', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='1402251985512541525', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 10:10:12 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:32) ]
+INFO:每行的内容：SkeyeduUser{id=14, userCode='null', loginName='sb', userName='沈白', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225158987854589', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 10:10:12 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:32) ]
+INFO:每行的内容：SkeyeduUser{id=15, userCode='null', loginName='lb', userName='李白', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='10447322658@qq.com', mobile='1336998554', type=0}
+2021-03-26 10:10:12 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:32) ]
+INFO:每行的内容：SkeyeduUser{id=16, userCode='null', loginName='lgw', userName='李高伟', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='1011322658@qq.com', mobile='1336998554', type=0}
+2021-03-26 10:10:12 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:32) ]
+INFO:每行的内容：SkeyeduUser{id=18, userCode='null', loginName='shangzezhong', userName='尚泽忠', password='4297f44b13955235245b2497399d7a93', sex=1, identityCode='140225198810013745', email='1044888844@qq.com', mobile='13366528458', type=0}
+2021-03-26 10:10:12 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:32) ]
+INFO:每行的内容：SkeyeduUser{id=19, userCode='null', loginName='liguangliang', userName='李光亮', password='25f9e794323b453885f5181f1b624d0b', sex=1, identityCode='140225198841547785', email='1047777@qq.com', mobile='13366055048', type=0}
+2021-03-26 10:10:12 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:32) ]
+INFO:每行的内容：SkeyeduUser{id=20, userCode='null', loginName='szz', userName='李光亮', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225198810013748', email='1044732267@qq.com', mobile='13366555010', type=1}
+2021-03-26 10:21:07 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-03-26 10:21:07 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-03-26 10:21:07 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 10:21:07 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 10:21:07 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 10:21:07 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 10:32:50 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-03-26 10:32:50 上午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-03-26 10:32:50 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 10:32:50 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 10:32:50 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 10:32:50 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 10:32:50 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2021-03-26 10:32:50 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 660017404.
+2021-03-26 10:32:50 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@275710fc]
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.dao.user.UserMapper.getUserList >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: SELECT `id`, `loginName`, `userName`, `password`, `sex`, `identityCode`, `email`, `mobile`, `type` FROM skeyedu_user 
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.dao.user.UserMapper.getUserList >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.dao.user.UserMapper.getUserList >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==      Total: 11
+2021-03-26 10:32:50 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@275710fc]
+2021-03-26 10:32:50 上午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@275710fc]
+2021-03-26 10:32:50 上午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 660017404 to pool.
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=2, userCode='null', loginName='admin', userName='系统管理员', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='130406198302141869', email='hello11@bdqn.com', mobile='1583233515', type=1}
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=10, userCode='null', loginName='cgn', userName='程广宁', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='1044732267@qq.com', mobile='13366055011', type=0}
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=11, userCode='null', loginName='hyl', userName='韩语良', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225198874584539', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=12, userCode='null', loginName='ck', userName='陈康', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=13, userCode='null', loginName='kys', userName='康有沈', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='1402251985512541525', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=14, userCode='null', loginName='sb', userName='沈白', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225158987854589', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=15, userCode='null', loginName='lb', userName='李白', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='10447322658@qq.com', mobile='1336998554', type=0}
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=16, userCode='null', loginName='lgw', userName='李高伟', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='1011322658@qq.com', mobile='1336998554', type=0}
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=18, userCode='null', loginName='shangzezhong', userName='尚泽忠', password='4297f44b13955235245b2497399d7a93', sex=1, identityCode='140225198810013745', email='1044888844@qq.com', mobile='13366528458', type=0}
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=19, userCode='null', loginName='liguangliang', userName='李光亮', password='25f9e794323b453885f5181f1b624d0b', sex=1, identityCode='140225198841547785', email='1047777@qq.com', mobile='13366055048', type=0}
+2021-03-26 10:32:50 上午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=20, userCode='null', loginName='szz', userName='李光亮', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225198810013748', email='1044732267@qq.com', mobile='13366555010', type=1}
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/E:/%e5%9f%b9%e8%ae%ad%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5/IDEAProject/output/production/%e5%ae%9e%e9%99%85%e7%94%a8%e6%88%b7%e8%a1%a8%e7%9a%84%e6%9f%a5%e8%af%a2%e6%93%8d%e4%bd%9c/demo/entity
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/E:/%e5%9f%b9%e8%ae%ad%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5/IDEAProject/output/production/%e5%ae%9e%e9%99%85%e7%94%a8%e6%88%b7%e8%a1%a8%e7%9a%84%e6%9f%a5%e8%af%a2%e6%93%8d%e4%bd%9c/demo/entity
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: SkeyeduUser.class
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/E:/%e5%9f%b9%e8%ae%ad%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5/IDEAProject/output/production/%e5%ae%9e%e9%99%85%e7%94%a8%e6%88%b7%e8%a1%a8%e7%9a%84%e6%9f%a5%e8%af%a2%e6%93%8d%e4%bd%9c/demo/entity
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/E:/%e5%9f%b9%e8%ae%ad%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5/IDEAProject/output/production/%e5%ae%9e%e9%99%85%e7%94%a8%e6%88%b7%e8%a1%a8%e7%9a%84%e6%9f%a5%e8%af%a2%e6%93%8d%e4%bd%9c/demo/entity/SkeyeduUser.class
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/E:/%e5%9f%b9%e8%ae%ad%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5/IDEAProject/output/production/%e5%ae%9e%e9%99%85%e7%94%a8%e6%88%b7%e8%a1%a8%e7%9a%84%e6%9f%a5%e8%af%a2%e6%93%8d%e4%bd%9c/demo/entity/SkeyeduUser.class
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4 m	  M	  N	  O	  P	  Q	  R	  S	  T	  U	  V
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class demo.entity.SkeyeduUser matches criteria [is assignable to Object]
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 453523494.
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1b083826]
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.dao.user.UserMapper.getUserList >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: SELECT `id`, `loginName`, `userName`, `password`, `sex`, `identityCode`, `email`, `mobile`, `type` FROM skeyedu_user 
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.dao.user.UserMapper.getUserList >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.dao.user.UserMapper.getUserList >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==      Total: 11
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1b083826]
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1b083826]
+2021-03-26 14:07:53 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 453523494 to pool.
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=2, userCode='null', loginName='admin', userName='系统管理员', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='130406198302141869', email='hello11@bdqn.com', mobile='1583233515', type=1}
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=10, userCode='null', loginName='cgn', userName='程广宁', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='1044732267@qq.com', mobile='13366055011', type=0}
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=11, userCode='null', loginName='hyl', userName='韩语良', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225198874584539', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=12, userCode='null', loginName='ck', userName='陈康', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=13, userCode='null', loginName='kys', userName='康有沈', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='1402251985512541525', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=14, userCode='null', loginName='sb', userName='沈白', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225158987854589', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=15, userCode='null', loginName='lb', userName='李白', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='10447322658@qq.com', mobile='1336998554', type=0}
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=16, userCode='null', loginName='lgw', userName='李高伟', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='1011322658@qq.com', mobile='1336998554', type=0}
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=18, userCode='null', loginName='shangzezhong', userName='尚泽忠', password='4297f44b13955235245b2497399d7a93', sex=1, identityCode='140225198810013745', email='1044888844@qq.com', mobile='13366528458', type=0}
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=19, userCode='null', loginName='liguangliang', userName='李光亮', password='25f9e794323b453885f5181f1b624d0b', sex=1, identityCode='140225198841547785', email='1047777@qq.com', mobile='13366055048', type=0}
+2021-03-26 14:07:53 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=20, userCode='null', loginName='szz', userName='李光亮', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225198810013748', email='1044732267@qq.com', mobile='13366555010', type=1}
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.logging.LogFactory >> Method: org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) ]
+DEBUG:Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VFS
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.JBoss6VFS >> Method: org.apache.ibatis.io.JBoss6VFS.setInvalid(JBoss6VFS.java:142) ]
+DEBUG:JBoss 6 VFS API is not available in this environment.
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS.getClass(VFS.java:108) ]
+DEBUG:Class not found: org.jboss.vfs.VirtualFile
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:63) ]
+DEBUG:VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.VFS >> Method: org.apache.ibatis.io.VFS$VFSHolder.createVFS(VFS.java:74) ]
+DEBUG:Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/E:/%e5%9f%b9%e8%ae%ad%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5/IDEAProject/output/production/%e5%ae%9e%e9%99%85%e7%94%a8%e6%88%b7%e8%a1%a8%e7%9a%84%e6%9f%a5%e8%af%a2%e6%93%8d%e4%bd%9c/demo/entity
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/E:/%e5%9f%b9%e8%ae%ad%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5/IDEAProject/output/production/%e5%ae%9e%e9%99%85%e7%94%a8%e6%88%b7%e8%a1%a8%e7%9a%84%e6%9f%a5%e8%af%a2%e6%93%8d%e4%bd%9c/demo/entity
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: SkeyeduUser.class
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:113) ]
+DEBUG:Listing file:/E:/%e5%9f%b9%e8%ae%ad%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5/IDEAProject/output/production/%e5%ae%9e%e9%99%85%e7%94%a8%e6%88%b7%e8%a1%a8%e7%9a%84%e6%9f%a5%e8%af%a2%e6%93%8d%e4%bd%9c/demo/entity
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:222) ]
+DEBUG:Find JAR URL: file:/E:/%e5%9f%b9%e8%ae%ad%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5/IDEAProject/output/production/%e5%ae%9e%e9%99%85%e7%94%a8%e6%88%b7%e8%a1%a8%e7%9a%84%e6%9f%a5%e8%af%a2%e6%93%8d%e4%bd%9c/demo/entity/SkeyeduUser.class
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.findJarForResource(DefaultVFS.java:248) ]
+DEBUG:Not a JAR: file:/E:/%e5%9f%b9%e8%ae%ad%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5/IDEAProject/output/production/%e5%ae%9e%e9%99%85%e7%94%a8%e6%88%b7%e8%a1%a8%e7%9a%84%e6%9f%a5%e8%af%a2%e6%93%8d%e4%bd%9c/demo/entity/SkeyeduUser.class
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.DefaultVFS >> Method: org.apache.ibatis.io.DefaultVFS.list(DefaultVFS.java:102) ]
+DEBUG:Reader entry: ����   4 m	  M	  N	  O	  P	  Q	  R	  S	  T	  U	  V
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.io.ResolverUtil >> Method: org.apache.ibatis.io.ResolverUtil.addIfMatching(ResolverUtil.java:256) ]
+DEBUG:Checking to see if class demo.entity.SkeyeduUser matches criteria [is assignable to Object]
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.forceCloseAll(PooledDataSource.java:353) ]
+DEBUG:PooledDataSource forcefully closed/removed all connections.
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:136) ]
+DEBUG:Opening JDBC Connection
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:424) ]
+DEBUG:Created connection 453523494.
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:100) ]
+DEBUG:Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1b083826]
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.dao.user.UserMapper.getUserList >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==>  Preparing: SELECT `id`, `loginName`, `userName`, `password`, `sex`, `identityCode`, `email`, `mobile`, `type` FROM skeyedu_user 
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.dao.user.UserMapper.getUserList >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:==> Parameters: 
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.dao.user.UserMapper.getUserList >> Method: org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143) ]
+DEBUG:<==      Total: 11
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.resetAutoCommit(JdbcTransaction.java:122) ]
+DEBUG:Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1b083826]
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.transaction.jdbc.JdbcTransaction >> Method: org.apache.ibatis.transaction.jdbc.JdbcTransaction.close(JdbcTransaction.java:90) ]
+DEBUG:Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1b083826]
+2021-03-26 14:49:11 下午 [Thread: main][ Class:org.apache.ibatis.datasource.pooled.PooledDataSource >> Method: org.apache.ibatis.datasource.pooled.PooledDataSource.pushConnection(PooledDataSource.java:381) ]
+DEBUG:Returned connection 453523494 to pool.
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=2, userCode='null', loginName='admin', userName='系统管理员', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='130406198302141869', email='hello11@bdqn.com', mobile='1583233515', type=1}
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=10, userCode='null', loginName='cgn', userName='程广宁', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='1044732267@qq.com', mobile='13366055011', type=0}
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=11, userCode='null', loginName='hyl', userName='韩语良', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225198874584539', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=12, userCode='null', loginName='ck', userName='陈康', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=13, userCode='null', loginName='kys', userName='康有沈', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='1402251985512541525', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=14, userCode='null', loginName='sb', userName='沈白', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225158987854589', email='1044732267@qq.com', mobile='13366055010', type=0}
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=15, userCode='null', loginName='lb', userName='李白', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='10447322658@qq.com', mobile='1336998554', type=0}
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=16, userCode='null', loginName='lgw', userName='李高伟', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225189987854589', email='1011322658@qq.com', mobile='1336998554', type=0}
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=18, userCode='null', loginName='shangzezhong', userName='尚泽忠', password='4297f44b13955235245b2497399d7a93', sex=1, identityCode='140225198810013745', email='1044888844@qq.com', mobile='13366528458', type=0}
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=19, userCode='null', loginName='liguangliang', userName='李光亮', password='25f9e794323b453885f5181f1b624d0b', sex=1, identityCode='140225198841547785', email='1047777@qq.com', mobile='13366055048', type=0}
+2021-03-26 14:49:11 下午 [Thread: main][ Class:demo.Test11 >> Method: demo.Test11.lambda$test$0(Test11.java:35) ]
+INFO:每行的内容：SkeyeduUser{id=20, userCode='null', loginName='szz', userName='李光亮', password='e10adc3949ba59abbe56e057f20f883e', sex=1, identityCode='140225198810013748', email='1044732267@qq.com', mobile='13366555010', type=1}

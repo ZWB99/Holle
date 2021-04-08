@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Holle.iml" filepath="$PROJECT_DIR$/.idea/Holle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/供应商模糊查询/供应商模糊查询.iml" filepath="$PROJECT_DIR$/供应商模糊查询/供应商模糊查询.iml" />
+    </modules>
+  </component>
+</project>
